@@ -1,0 +1,20 @@
+# The game script, also known as the main function in some languages is
+# the entrance to our game. Here we can set what's known as global
+# variables, which we can use anywhere within our game!
+
+# Here we can also set our 'rooms', which you can think of as levels in
+# our game! By setting our first level to 'rm_level1', we can change the
+# difficulty of our game and add new features to make the game different
+# as we play it.
+room_set('rm_level1')
+
+# Score is one of those variables, as we need and keep track of it from
+# other parts of our game: for example in 'obj_enemy', where we add 5
+# points to our score if we destroy an enemy!
+score = 0
+
+# Shotgun variable is used to determine if our spaceship has picked up
+# the shotgun powerup or no. If it's set to 0, that means that we
+# don't have a shotgun powerup equipped yet. If it's set to 1, that
+# means that we are using a shotgun!
+shotgun = 0
